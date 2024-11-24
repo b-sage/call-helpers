@@ -17,7 +17,7 @@ contract TokenHelperTest is Test {
     ERC20CallHelper public th;
     address public constant MKR = 0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2;
     address public constant UNI = 0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984;
-	address public constant USDC = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
+    address public constant USDC = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
 
     function setUp() public {
         th = new ERC20CallHelper();
@@ -45,8 +45,8 @@ contract TokenHelperTest is Test {
         assertEq(mkr_name, getMakerName());
         string memory uni_name = th.name(UNI);
         //assertEq(uni_name, getUniName());
-	string memory usdc_name = th.name(USDC);
-    	//assertEq(usdc_name, getUsdcName());
+        string memory usdc_name = th.name(USDC);
+        //assertEq(usdc_name, getUsdcName());
     }
 
     function testSymbol() public {
@@ -54,8 +54,8 @@ contract TokenHelperTest is Test {
         assertEq(mkr_symbol, getMakerSymbol());
         string memory uni_symbol = th.symbol(UNI);
         //assertEq(uni_symbol, getUniSymbol());
-	string memory usdc_symbol = th.symbol(USDC);
-    	//assertEq(usdc_symbol, getUsdcSymbol());
+        string memory usdc_symbol = th.symbol(USDC);
+        //assertEq(usdc_symbol, getUsdcSymbol());
     }
 
     function testDecimals() public {
@@ -63,7 +63,7 @@ contract TokenHelperTest is Test {
         assertEq(mkr_decimals, 18);
         uint256 uni_decimals = th.decimals(UNI);
         assertEq(uni_decimals, 18);
-	uint256 usdc_decimals = th.decimals(USDC);
-	assertEq(usdc_decimals, 6);
+        uint256 usdc_decimals = th.decimals(USDC);
+        assertEq(usdc_decimals, 6);
     }
 }
