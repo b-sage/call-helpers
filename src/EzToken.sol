@@ -1,6 +1,6 @@
 pragma solidity ^0.8.13;
 
-contract ERC20CallHelper {
+contract EzToken {
     function toUint256(bytes memory _bytes) internal pure returns (uint256) {
         uint256 value;
         assembly {

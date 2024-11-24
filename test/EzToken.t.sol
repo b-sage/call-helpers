@@ -1,7 +1,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {ERC20CallHelper} from "../src/ERC20CallHelper.sol";
+import {EzToken} from "../src/EzToken.sol";
 
 interface IERC20Standard {
     function name() external returns (string memory);
@@ -14,13 +14,13 @@ interface IERC20Bytes {
 }
 
 contract TokenHelperTest is Test {
-    ERC20CallHelper public th;
+    EzToken public th;
     address public constant MKR = 0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2;
     address public constant UNI = 0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984;
     address public constant USDC = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
 
     function setUp() public {
-        th = new ERC20CallHelper();
+        th = new EzToken();
     }
 
     function getMakerName() internal returns (string memory) {
