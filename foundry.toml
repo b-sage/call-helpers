@@ -12,10 +12,12 @@ base-sepolia = "${BASE_SEPOLIA_RPC}"
 unichain-sepolia = "${UNICHAIN_SEPOLIA_RPC}"
 optimism-sepolia = "${OP_SEPOLIA_RPC}"
 sepolia = "${SEPOLIA_RPC}"
+gnosis = "${GNOSIS_RPC}"
 
 [etherscan]
 base-sepolia = { key = ""}
 unichain-sepolia = { key = "" }
 optimism-sepolia = { key = "${OPSCAN_API_KEY}" }
 sepolia = { key = "${ETHERSCAN_API_KEY}" }
+gnosis = { key = "$GNOSISCAN_API_KEY" }
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
