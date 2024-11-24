@@ -14,8 +14,8 @@ but if you know of any please create an issue!
 | Network          | Address                                                                                                                       |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | Base Sepolia     | [0x6D0D6efc7336d3057aCfBDa71866C398537D4587](https://sepolia.basescan.org/address/0x6D0D6efc7336d3057aCfBDa71866C398537D4587) |
-| Unichain Sepolia | [0x99F78055cE097B23B43d7190cDd314b6A44edc87](https://unichain-sepolia.blockscout.com/address/0x99F78055cE097B23B43d7190cDd314b6A44edc87) |
+| Unichain Sepolia | [0x6D0D6efc7336d3057aCfBDa71866C398537D4587](https://unichain-sepolia.blockscout.com/address/0x6D0D6efc7336d3057aCfBDa71866C398537D4587) |
 | OP Sepolia       | [0x29Df8ca4F6bC9d22d23437e1910fDF0D1f3ce664](https://sepolia-optimism.etherscan.io/address/0x29Df8ca4F6bC9d22d23437e1910fDF0D1f3ce664)
-| Sepolia          | [0x99F78055cE097B23B43d7190cDd314b6A44edc87](https://sepolia.etherscan.io/address/0x99F78055cE097B23B43d7190cDd314b6A44edc87)
+| Sepolia          | [0x6D0D6efc7336d3057aCfBDa71866C398537D4587](https://sepolia.etherscan.io/address/0x6D0D6efc7336d3057aCfBDa71866C398537D4587)
 
 If you deploy elsewhere please create an issue so I can add it here!
