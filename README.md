@@ -1,4 +1,4 @@
-# call-helpers
+# ez-token
 Smart contracts designed to ease burden of offchain data collection
 
 ## Description
