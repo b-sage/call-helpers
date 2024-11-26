@@ -10,7 +10,7 @@ but if you know of any please create an issue!
 
 ## Deployments
 
-**ERC20CallHelper.sol**
+**EzToken.sol**
 | Network          | Address                                                                                                                       |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | Base Sepolia     | [0x29F8Af45A5dEe510F3C81331CFF222e97E3D76f7](https://sepolia.basescan.org/address/0x29F8Af45A5dEe510F3C81331CFF222e97E3D76f7) |
